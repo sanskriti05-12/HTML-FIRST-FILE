@@ -1,0 +1,53 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero {
+    height: 100vh;
+    background: url('/showcase.jpg') no-repeat center center/cover;
+}
+.hero .navbar {
+  display: flex;
+  height: 80px;
+  background-color: #333;
+  justify-content: space-around;
+  align-items: center;
+}
+.hero .navbar h1 {
+  color: white;
+}
+.hero .navbar h1 span {
+  color: green;
+}
+
+.hero .navbar nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+.hero .navbar nav ul li a {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.hero .navbar .icons{
+    display: flex;
+    gap: 20px;
+}
+.hero .navbar .icons i {
+    color: white;
+    font-size: 25px;
+}
+.hero .content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+style.css
+Displaying style.css.
